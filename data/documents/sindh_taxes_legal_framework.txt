@@ -1,0 +1,120 @@
+Karachi Real Estate: Legal Framework, Taxes, and Compliance (2024–2025)
+
+Governing Authorities
+
+Multiple regulatory bodies govern property transactions in Karachi:
+
+1. Sindh Revenue Board (SRB): Collects stamp duty and capital value tax (CVT) on property transfers. Issues SRB challan receipts as proof of payment.
+
+2. Sindh Board of Revenue (SBoR): Maintains land records for non-cantonment Karachi. Manages DCRS (District Computerized Revenue System). Issues Fard (ownership certificate) for non-DHA, non-cantonment properties.
+
+3. Federal Board of Revenue (FBR): Sets property valuation tables used for tax computation. Issues FGRF (FBR Gross Revenue Form). FBR rates are revised periodically and differ significantly from market rates.
+
+4. SBCA (Sindh Building Control Authority): Issues building plans, NOCs, and completion certificates. From 2024, operates a digital NOC verification system.
+
+5. DHA Karachi: Self-regulatory authority for DHA Karachi and DHA City Karachi. Transfers within DHA are handled internally; SRB stamp duty still applies.
+
+6. Bahria Town (private): Manages internal records for BTK. SRB stamp duty applies on BTK transfers.
+
+7. Cantonment Boards: Cliff ton, Malir, Manora — jurisdiction over cantonment housing schemes.
+
+Sindh Finance Act 2024 — Key Changes
+
+The Sindh Finance Act 2024 introduced several property-related tax changes effective from July 1, 2024:
+
+Stamp Duty Rates (Revised):
+- Transactions up to PKR 5,000,000: 3% of transaction value
+- Transactions PKR 5,000,001 to PKR 20,000,000: 4% of transaction value
+- Transactions above PKR 20,000,000: 5% of transaction value
+
+Pre-2024 rates were: 3% flat up to PKR 3 million, 4% above. The 2024 revision raised the upper threshold and added a 5% slab for high-value transactions, significantly increasing the tax burden on Bahria Town Karachi and DHA premium plot transfers.
+
+Capital Value Tax (CVT):
+- Residential plots and houses: 2% of FBR valuation (no change from 2023)
+- Commercial properties: 4% of FBR valuation (up from 3% in 2022)
+- Agricultural land converted to residential: 3% (new slab, 2024)
+- Cantonment residential: 1% (lower rate reconfirmed in 2024 Finance Act clarification)
+
+Withholding Tax (Federal — Income Tax Ordinance 2001, Section 236C/236K):
+- Section 236C: 1% withholding on seller (non-filer: 2%)
+- Section 236K: 1% advance tax on buyer (non-filer: 2%)
+- These are federal taxes collected at the time of transfer registration
+
+Important: Tax slab at time of transaction applies, not current rates. SRB challan receipts must record the applicable slab and effective date to enable accurate duty calculations for historical transfers.
+
+FBR Property Valuation Table — July 2024 Revision
+
+FBR revised its Karachi property valuation table effective July 2024, significantly increasing rates across all major schemes:
+
+DHA City Karachi:
+- Residential (any size): PKR 18,000–22,000 per sq yard (up from PKR 8,000–10,000 in 2022)
+- Commercial: PKR 55,000 per sq yard
+
+DHA Karachi (Phase 1–8):
+- Phase 1–4: PKR 90,000–125,000 per sq yard (residential)
+- Phase 5–6: PKR 70,000–95,000 per sq yard
+- Phase 7–8: PKR 55,000–75,000 per sq yard
+
+Bahria Town Karachi:
+- Precincts 1–20: PKR 25,000–35,000 per sq yard
+- Precincts 21–36: PKR 18,000–28,000 per sq yard
+- Precincts 37–45 (Phase 2): PKR 12,000–16,000 per sq yard (new rate, 2024)
+
+Malir City (MCDA):
+- 120 sq yard: PKR 12,000 per sq yard
+- 200 sq yard: PKR 14,000 per sq yard
+
+Gulshan-e-Iqbal / North Nazimabad:
+- Category: PKR 35,000–55,000 per sq yard depending on block
+
+Note: FBR rates are substantially lower than market rates. The stamp duty is calculated on whichever is higher: declared sale price or FBR valuation. Under-declaration of sale price (to reduce stamp duty) is an offense under the SRB Act but was historically common.
+
+SBCA Digital NOC System (2024)
+
+SBCA launched a digital NOC portal in 2024 as part of Sindh's e-governance initiative. Key features:
+- Verification URL format: https://sbca.gos.pk/noc-verify/[NOC-Number]
+- NOC types: Building Permission, Completion Certificate, No Objection for Transfer
+- Processing time: 15–30 working days (digital) vs 60–90 days (manual prior to 2024)
+- NOC validity: 2 years from issuance
+- Digital NOC includes QR code for field verification
+
+For property transactions in non-cantonment schemes, SRB now requires SBCA digital NOC reference at the time of stamp duty payment for transactions above PKR 10 million. This is new as of 2024.
+
+Litigation and Courts
+
+Property disputes in Karachi are handled by:
+- Civil courts (for general property disputes)
+- Sindh High Court (SHC) for constitutional challenges and high-value matters
+- Revenue courts (for land record / mutation disputes)
+- Cantonment Tribunal (for cantonment scheme disputes)
+- DHA Internal Dispute Committee (first instance) → SHC if unresolved
+
+Cases involving Bahria Town Karachi ownership are handled at SHC level given the Supreme Court's original jurisdiction history.
+
+Common causes of litigation in major Karachi schemes:
+1. Fraudulent transfers (seller transfers without disclosing existing mortgage/encumbrance)
+2. Multiple registrations on same plot (data entry or collusion errors)
+3. Legal heir disputes (allottee dies; multiple heirs claim)
+4. Encroachment by adjacent plot holder
+5. Non-delivery of possession (buyer sues developer for delay)
+
+Naya Pakistan Housing Authority (NPHA) Karachi
+
+The Naya Pakistan Housing Programme (now under National Housing Authority post-2022 government change) had allocated plots in Karachi under the Naya Pakistan Low-Cost Housing Scheme.
+
+Key Karachi NPHA allocations:
+- Surjani Town scheme: 1,000 sq ft apartments; first ballots 2021; construction ongoing 2024
+- Korangi scheme: smaller plot allocation; 80 sq yard plots
+- Federal government scheme: separate from Sindh provincial schemes
+
+NPHA data is available in PDF format from the Ministry of Housing website and includes allotment letters with applicant CNIC, plot number, scheme code, and payment plan.
+
+Important distinction: NPHA schemes are on federal land (not subject to SRB stamp duty in the same way; separate federal stamp tax applies). Buyers should not confuse NPHA allotments with DHA or Bahria files.
+
+Property Market Regulatory Developments 2025
+
+1. Anti-Money Laundering: SRB began cross-referencing high-value property transactions with FBR returns in 2024 as part of AML compliance. Transactions above PKR 50 million are flagged for additional scrutiny.
+
+2. Foreigner Property Rights: The Securities and Exchange Commission of Pakistan (SECP) issued updated guidelines in 2024 for overseas Pakistani property purchases; digital ROIP (Registration of Immovable Property) certificates now available.
+
+3. Real Estate Investment Trusts (REITs): Two new REITs launched in Karachi in 2024, providing a regulated investment vehicle for Karachi commercial real estate exposure without direct property purchase.

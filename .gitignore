@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# LightRAG graph storage (large, regenerated from docs)
+lightrag_storage/
+
+# BM25 corpus cache
+.bm25_corpus.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp

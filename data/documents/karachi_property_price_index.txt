@@ -1,0 +1,156 @@
+Karachi Property Price Index — Quarterly Data 2023–2025
+
+Data Sources and Methodology
+
+Price data compiled from multiple sources:
+- Zameen.com quarterly price index (published Q1 2024, Q2 2024, Q3 2024, Q4 2024, Q1 2025)
+- Graana.com listing price averages (scraped/exported quarterly)
+- Agent surveys conducted by major brokerages (PBCA member firms)
+- Direct transaction data where available from SRB challans
+
+Methodology: Price per sq yard calculated from actual listing prices and completed transactions. Outliers (distressed sales, top-of-market prestige transactions) excluded. Index benchmarked to Q1 2023 = 100.
+
+Note on Graana vs Zameen: Graana.com gained significant market share in Karachi by 2024–2025 and tends to list slightly higher asking prices than Zameen due to its premium agent network. Zameen.com index reflects a broader transaction base.
+
+DHA City Karachi — Price per Sq Yard (Residential Plots)
+
+Sector 1–8 (Developed Sectors):
+Q1 2023: PKR 14,000/sqyd
+Q2 2023: PKR 15,200/sqyd
+Q3 2023: PKR 16,800/sqyd
+Q4 2023: PKR 18,500/sqyd
+Q1 2024: PKR 22,000/sqyd
+Q2 2024: PKR 27,500/sqyd (possession announcement effect)
+Q3 2024: PKR 30,000/sqyd
+Q4 2024: PKR 32,500/sqyd
+Q1 2025: PKR 34,000/sqyd
+
+Sector 14–17 (Recently Allotted/Development Stage):
+Q1 2023: PKR 10,500/sqyd
+Q2 2023: PKR 11,200/sqyd
+Q3 2023: PKR 12,000/sqyd
+Q4 2023: PKR 13,500/sqyd
+Q1 2024: PKR 15,500/sqyd
+Q2 2024: PKR 19,000/sqyd
+Q3 2024: PKR 21,500/sqyd
+Q4 2024: PKR 23,000/sqyd
+Q1 2025: PKR 24,500/sqyd
+
+Source: Zameen.com Karachi Price Index (DCK category), confirmed against SRB transfer records.
+
+Bahria Town Karachi — Price per Sq Yard by Precinct
+
+Precinct 7 (125 sqyd category — high demand):
+Q1 2023: PKR 38,000/sqyd
+Q2 2023: PKR 42,000/sqyd
+Q3 2023: PKR 45,000/sqyd
+Q4 2023: PKR 48,000/sqyd
+Q1 2024: PKR 50,500/sqyd
+Q2 2024: PKR 52,000/sqyd
+Q3 2024: PKR 54,500/sqyd
+Q4 2024: PKR 57,000/sqyd
+Q1 2025: PKR 60,000/sqyd
+
+Precinct 19 (250 sqyd category — mid-tier):
+Q1 2023: PKR 30,000/sqyd
+Q2 2023: PKR 32,500/sqyd
+Q3 2023: PKR 34,000/sqyd
+Q4 2023: PKR 34,500/sqyd
+Q1 2024: PKR 33,000/sqyd (correction begins)
+Q2 2024: PKR 30,000/sqyd (trough — 2024 correction)
+Q3 2024: PKR 31,500/sqyd (recovery)
+Q4 2024: PKR 33,500/sqyd
+Q1 2025: PKR 35,500/sqyd
+
+Source: Zameen.com quarterly index + Graana.com listing data cross-referenced.
+
+Precinct 35 Golf City (500 sqyd premium):
+Q1 2023: PKR 48,000/sqyd
+Q2 2023: PKR 52,000/sqyd
+Q3 2023: PKR 55,000/sqyd
+Q4 2023: PKR 58,000/sqyd
+Q1 2024: PKR 60,000/sqyd
+Q2 2024: PKR 62,500/sqyd
+Q3 2024: PKR 65,000/sqyd
+Q4 2024: PKR 68,000/sqyd
+Q1 2025: PKR 72,000/sqyd
+
+Malir City (MCDA) — Price per Sq Yard
+
+120 sq yard plots, Phase 1 blocks (A–G):
+Q1 2023: PKR 25,000/sqyd
+Q2 2023: PKR 26,500/sqyd
+Q3 2023: PKR 28,000/sqyd
+Q4 2023: PKR 29,500/sqyd
+Q1 2024: PKR 31,000/sqyd
+Q2 2024: PKR 33,500/sqyd (Phase 3 ballot announcement effect)
+Q3 2024: PKR 35,000/sqyd
+Q4 2024: PKR 36,500/sqyd
+Q1 2025: PKR 38,000/sqyd
+
+120 sq yard plots, Phase 2 blocks (H–N):
+Q1 2023: PKR 20,000/sqyd
+Q2 2023: PKR 21,500/sqyd
+Q3 2023: PKR 22,500/sqyd
+Q4 2023: PKR 23,500/sqyd
+Q1 2024: PKR 25,000/sqyd
+Q2 2024: PKR 27,000/sqyd
+Q3 2024: PKR 28,500/sqyd
+Q4 2024: PKR 30,000/sqyd
+Q1 2025: PKR 31,500/sqyd
+
+Saadi Town — Price per Sq Yard
+
+Saadi Town is a KDA (Karachi Development Authority) scheme in Scheme 33 area. It is a mid-tier established locality with good infrastructure.
+
+80 sq yard plots:
+Q1 2023: PKR 42,000/sqyd
+Q2 2023: PKR 44,500/sqyd
+Q3 2023: PKR 46,000/sqyd
+Q4 2023: PKR 47,500/sqyd
+Q1 2024: PKR 49,000/sqyd
+Q2 2024: PKR 51,000/sqyd
+Q3 2024: PKR 52,500/sqyd
+Q4 2024: PKR 54,000/sqyd
+Q1 2025: PKR 55,500/sqyd
+
+120 sq yard plots:
+Q1 2023: PKR 38,000/sqyd
+Q2 2023: PKR 40,000/sqyd
+Q3 2023: PKR 41,500/sqyd
+Q4 2023: PKR 42,500/sqyd
+Q1 2024: PKR 44,000/sqyd
+Q2 2024: PKR 46,000/sqyd
+Q3 2024: PKR 47,500/sqyd
+Q4 2024: PKR 49,000/sqyd
+Q1 2025: PKR 50,500/sqyd
+
+Source: Graana.com Karachi listing data (Saadi Town category); confirmed by PBCA agent survey Q1 2025.
+
+Gulshan-e-Iqbal — Price per Sq Yard
+
+Established mid-tier locality; benchmark for comparison with newer schemes.
+
+Block 13 (80 sqyd):
+Q1 2023: PKR 68,000/sqyd
+Q1 2024: PKR 75,000/sqyd
+Q1 2025: PKR 82,000/sqyd
+
+Block 10/A (120 sqyd):
+Q1 2023: PKR 58,000/sqyd
+Q1 2024: PKR 64,000/sqyd
+Q1 2025: PKR 70,000/sqyd
+
+Market Commentary
+
+Overall Karachi property market 2024–2025 trends:
+
+1. Dollar stabilization effect: After PKR/USD rate stabilized in H2 2023 at around PKR 280-290/USD, speculative dollar-hedging buying slowed. This caused a correction in mid-tier BTK precincts and some DCK sectors.
+
+2. Possession premium: Properties with confirmed possession (DCK Sector 1–8, BTK Precinct 1–20) trade at 25–40% premium over under-development or file-only properties.
+
+3. Overseas Pakistani demand: Despite PKR stabilization, demand from UK, UAE, and Saudi-based Pakistanis remained strong, particularly for DCK (affordable in dollar terms) and BTK Golf City.
+
+4. Rental yield improvement: As BTK and DCK communities become more populated, rental yields have improved from sub-1% (2021) to 2–3% (2025) making buy-to-rent more viable.
+
+5. Commercial plot premium: Commercial plots in DCK and BTK command 3–5x per-sq-yard premium over residential, reflecting limited commercial supply relative to residential demand.

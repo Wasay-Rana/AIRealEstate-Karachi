@@ -1,0 +1,106 @@
+Malir Cantonment Housing Projects — Malir City and Malir Town Residencia (2024–2025)
+
+Overview of Malir Cantonment Development Authority
+
+The Malir Cantonment Development Authority (MCDA) manages housing projects under Malir Cantonment jurisdiction. Unlike civilian housing schemes, cantonment-based projects fall under the Cantonment Act and are regulated by the respective Cantonment Board rather than SBCA or KMC. This provides a degree of legal certainty that some buyers find reassuring.
+
+Malir City
+
+Malir City is MCDA's flagship residential project. It is located in Malir Cantonment area, approximately 20–25 km from Saddar, Karachi, off the Korangi-Landhi corridor.
+
+Plot Categories and Sizes:
+- Category A: 80 sq yard (smaller residential units)
+- Category B: 120 sq yard (most popular category)
+- Category C: 200 sq yard
+- Category D: 400 sq yard (premium residential)
+- Commercial plots: 60–100 sq yard strips within each residential block
+
+Ballot History:
+- Phase 1 Ballot: 2016 — residential plots in Blocks A through G
+- Phase 2 Ballot: 2019 — Blocks H through N
+- Phase 3 Ballot (2024): Major allocation round in Q2 2024 covering approximately 3,200 new plots in Blocks O through U. This was the largest single ballot in MCDA history.
+
+Phase 3 2024 Ballot Details:
+MCDA conducted the ballot on May 15, 2024. Allotment letters were dispatched via registered mail and courier, with digital records uploaded to the MCDA online portal. Applicants with CNIC-verified accounts received SMS confirmation within 72 hours.
+
+Files from Phase 3 2024 ballot carry the prefix MC-2024-P3-[Block]-[Plot Number] in MCDA's records. These are fresh allotments and have not been transferred yet as of Q1 2025 (cooling period of 6 months applies before transfer is permitted).
+
+Plot Prices (Malir City):
+
+120 sq yard residential:
+- Phase 1 blocks (A–G): PKR 38–52 lakh (resale market, 2025)
+- Phase 2 blocks (H–N): PKR 32–45 lakh (2025)
+- Phase 3 blocks (O–U, fresh 2024 allotment): PKR 28–38 lakh (primary market + small resale premium)
+
+200 sq yard residential:
+- Phase 1: PKR 65–85 lakh
+- Phase 2: PKR 55–72 lakh
+- Phase 3: PKR 48–65 lakh
+
+Development Status:
+- Blocks A–N (Phases 1 and 2): Developed; roads, electricity, water, sewage in place. Occupied.
+- Blocks O–T (Phase 3): Under development. Roads graded; utilities not yet commissioned.
+- Block U: Demarcation only; construction not yet begun.
+
+Allotment Document Format (for parsing):
+MCDA allotment letters are issued as A4 PDF documents with the following fields:
+- Allotment Letter Number (format: MCDA/MC/2024/XXXXX)
+- Applicant Name and CNIC
+- Plot Number and Block
+- Category (80/120/200/400 sq yard)
+- Date of Allotment
+- Total Amount Payable (lump sum or installment schedule)
+- Development Charges per sq yard
+- Terms and Conditions (standard 12 clauses)
+
+Excel-based allotment sheets (bulk format) contain: Serial Number, CNIC, Applicant Name, Plot No., Block, Category, Amount Paid, Balance Due, Allotment Status. These are used by MCDA for internal tracking and provided to applicants on request.
+
+Malir Town Residencia
+
+Malir Town Residencia (MTR) is a companion project under MCDA, positioned slightly closer to the Karachi city boundary. It targets middle-income buyers who cannot afford DHA or Bahria prices but want cantonment-level security of tenure.
+
+Plot categories: 80, 100, 150, and 240 sq yard residential; 40–60 sq yard commercial.
+
+Ballot Rounds:
+- 2017: Phase 1 ballot — Blocks A through F (approximately 1,800 plots)
+- 2021: Phase 2 ballot — Blocks G through L (approximately 2,200 plots)
+- 2024: Phase 3 ballot announced; applications closed October 2024; ballot expected Q2 2025
+
+Malir Town Residencia 2024 Application Details:
+Application fee: PKR 5,000 per category applied for. Applicants could apply in up to 2 categories. Priority was given to serving and retired cantonment employees. Maximum 2 allotments per CNIC.
+
+Transfer Rules (MTR):
+- No transfer allowed within first 2 years of allotment (anti-speculative lock-in)
+- After 2 years: transfer fee = PKR 200 per sq yard for residential, PKR 500 per sq yard for commercial
+- CNIC of transferee must not already hold an allotment in same scheme
+
+Stamp Duty and CVT for Cantonment Projects
+
+Cantonment-based housing schemes (Malir City, Malir Town Residencia, Clifton Cantonment projects) have a different stamp duty treatment:
+
+For intra-cantonment transfers:
+- Stamp duty payable at SRB: 3% on declared value (FBR rate or market rate, higher)
+- CVT: 1% (cantonment projects get a lower CVT rate compared to civilian schemes per Sindh Finance Act 2024 clarification)
+- No KMC or CDGK levies apply (cantonment jurisdiction)
+
+FBR Valuation Rates (Malir Cantonment Area, July 2024 Revision):
+- 120 sq yard plots: FBR rate PKR 12,000 per sq yard
+- 200 sq yard plots: FBR rate PKR 14,000 per sq yard
+- 400 sq yard plots: FBR rate PKR 16,000 per sq yard
+(These rates are significantly below market rates but are used for tax calculation purposes)
+
+Key Advantages of Cantonment Projects
+
+1. Legal clarity: Cantonment Board has exclusive jurisdiction; less prone to political interference
+2. Security of tenure: Less risk of land encroachment compared to civilian schemes
+3. Maintained infrastructure: Cantonment Boards historically maintain better roads, green belts, and utilities
+4. Exclusion from SBCA jurisdiction: Building plans approved by Cantonment Board engineering branch, which applicants often find faster
+
+Common Disputes and Litigation
+
+Despite cantonment jurisdiction, some Malir City Phase 1 plots are under litigation. Common causes:
+1. Multiple allotments on same plot due to data entry error in 2016 ballot
+2. Inheritance disputes (deceased applicant's legal heirs contesting)
+3. Land acquisition disputes at the perimeter of Malir Cantonment where civilian land was incorporated
+
+The Cantonment Tribunal (not SHC) has jurisdiction over most MCDA disputes. The process is faster than civil courts but outcomes can take 2–4 years to conclude.

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "q1",
+    "query": "Which DHA City Karachi sectors have given possession and which have not as of 2025, and what are the main reasons for delays in sectors that haven't?",
+    "expected_mode": "deep",
+    "reasoning_hops": [
+      "dha_city_karachi_overview.txt",
+      "karachi_property_buying_guide.txt"
+    ],
+    "notes": "Multi-hop: requires linking sector-by-sector possession status (doc1) to common delay causes like utilities and development charges (doc1 + doc2). Tests graph traversal across DCK entities.",
+    "expected_concepts": [
+      "Sectors 1–8 possession given 2022",
+      "Sector 14 possession given April 2024 (~1,200 plots)",
+      "Sectors 15–20 possession estimated 2026",
+      "Sui gas not available in most sectors",
+      "Unpaid development charges prevent possession"
+    ]
+  },
+  {
+    "id": "q2",
+    "query": "What stamp duty would a buyer pay in 2025 on a Bahria Town Karachi Precinct 35 plot transferred at PKR 1.8 crore declared value, given the Sindh Finance Act 2024 changes?",
+    "expected_mode": "balanced",
+    "reasoning_hops": [
+      "sindh_taxes_legal_framework.txt",
+      "bahria_town_karachi_guide.txt"
+    ],
+    "notes": "Structured tax calculation query. Requires knowing the 2024 stamp duty slabs (doc3) and that PKR 1.8 crore = PKR 18 million which falls in the 4% slab (doc3). Tests financial reasoning.",
+    "expected_concepts": [
+      "PKR 18 million falls in PKR 5M–20M slab: 4% stamp duty",
+      "Stamp duty = PKR 720,000",
+      "CVT 2% = PKR 360,000 on FBR valuation",
+      "Finance Act 2024 effective July 1 2024",
+      "SRB challan required before Sub-Registrar registration"
+    ]
+  },
+  {
+    "id": "q3",
+    "query": "Compare Malir City Phase 1 blocks vs Saadi Town price per sq yard trend from 2023 to 2025, and explain which is the better value investment and why.",
+    "expected_mode": "deep",
+    "reasoning_hops": [
+      "karachi_property_price_index.txt",
+      "malir_cantonment_projects.txt",
+      "karachi_property_buying_guide.txt"
+    ],
+    "notes": "Classic multi-hop synthesis: price data (doc5) + Malir City project details and legal security (doc3) + investment considerations like possession, infrastructure, and title clarity (doc4). Requires reasoning about value beyond just price.",
+    "expected_concepts": [
+      "Malir City Phase 1 (120 sqyd): PKR 25,000/sqyd in Q1 2023, PKR 38,000/sqyd in Q1 2025 (+52%)",
+      "Saadi Town (120 sqyd): PKR 38,000/sqyd in Q1 2023, PKR 50,500/sqyd in Q1 2025 (+33%)",
+      "Malir City shows higher percentage growth due to Phase 3 ballot announcement effect",
+      "Saadi Town has better existing infrastructure and connectivity (KDA scheme)",
+      "Malir City has cantonment-level legal security (Cantonment Act jurisdiction)",
+      "Investment choice depends on risk tolerance: Saadi Town lower risk, Malir City higher growth potential"
+    ]
+  }
+]

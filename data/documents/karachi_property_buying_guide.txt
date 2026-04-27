@@ -1,0 +1,105 @@
+Karachi Property Buyer's Practical Guide — New Allotments and Transfers (2025)
+
+Due Diligence Checklist Before Any Property Transaction
+
+Before purchasing any plot file or constructed property in Karachi, a buyer must verify:
+
+1. Title Verification
+   - Obtain original allotment letter from seller
+   - Verify with the issuing authority (DHA, MCDA, Bahria, SBoR, etc.) that the file is in the seller's name
+   - Check for any encumbrance (mortgage, court stay, attachment)
+   - For DHA: visit DHA Member Services, present original letter, obtain ownership confirmation
+   - For BTK: call Bahria helpline or visit Karachi head office with file number
+   - For MCDA: verify on MCDA online portal (launched 2023) using allotment number
+
+2. Litigation Flag Check
+   - Search online SHC cause list (www.shc.org.pk) for the plot/file number or owner's name
+   - For cantonment disputes: check Cantonment Tribunal register at Malir Cantonment Board office
+   - Real estate lawyers in Karachi charge PKR 5,000–15,000 for a litigation search report
+   - DHA provides an in-house litigation status certificate for a fee
+
+3. Possession Status Verification
+   - For DCK: possession status verifiable at DCK camp office; bring allotment letter + CNIC
+   - For BTK: Bahria's internal system accessible at head office or through official agent portal
+   - For MCDA: development officer at MCDA can confirm block status
+
+4. Tax Compliance
+   - Verify seller is on FBR Active Taxpayer List (ATL): filer vs non-filer affects withholding tax
+   - Non-filer withholding tax: 2% (vs 1% for filer) under Section 236C/K
+   - Verify if property was last transferred under which FBR valuation table (pre- or post-July 2024)
+   - Ask seller for previous SRB challan receipt to establish transfer history
+
+Step-by-Step Transfer Process (Standard Karachi Property Transfer)
+
+Step 1: Agree on sale price and sign an Agreement to Sell (Bai Nama) on PKR 100 stamp paper. This is not legally binding as to the property transfer but establishes intent and protects advance payments.
+
+Step 2: Seller provides No Objection Certificate (NOC) from relevant authority:
+   - DHA/DCK: NOC from DHA confirming no dues, no litigation flag
+   - BTK: Bahria clearance certificate
+   - MCDA: NOC from MCDA development department
+
+Step 3: Stamp duty calculation: Determine transaction value (declared price or FBR rate, whichever higher). Apply applicable Sindh Finance Act 2024 slab.
+
+Step 4: Pay stamp duty at SRB: Visit any SRB challan collection branch. Obtain SRB challan receipt with challan number, date, property details, amount paid, applicable rate.
+
+Step 5: Sub-Registrar office: Register the Sale Deed at the relevant Sub-Registrar's office (Malir Sub-Registrar for DCK/Malir area; Gadap Sub-Registrar for BTK/Scheme 45 area).
+
+Step 6: Update records at issuing authority (DHA/Bahria/MCDA): Present registered sale deed, NOC, SRB challan, CNICs. Pay transfer fee. Receive updated allotment letter in buyer's name.
+
+Step 7: FBR filing: Buyer must declare purchase in annual income tax return under 116A (foreign assets) if buyer is overseas Pakistani, or in regular property schedule.
+
+Common Mistakes and Pitfalls
+
+1. Buying a "token advance" file without verifying with authority: Many fraudulent transactions involve a seller taking token money on a fake allotment letter before the buyer verifies ownership. Always verify directly with DHA/Bahria/MCDA before paying any advance.
+
+2. Not checking the 2024 stamp duty rates: Several buyers calculated stamp duty at old 2022 rates, then received a notice from SRB. Always use the rate applicable on the date of transaction registration.
+
+3. Phase 2 BTK files: Phase 2 extension precincts (37–45) are booking files without full regulatory NOC. Buyers must understand these are developer-backed files, not government-registered allotments.
+
+4. DCK files purchased between 2022–2024: Some DCK files in the range of Sectors 9–13 are still in dispute due to DHA's land acquisition process in that area. Always verify sector-specific litigation status.
+
+5. Overlooking development charges: DCK and MCDA charge development charges (DC) separately from plot price. Unpaid DC becomes the buyer's liability. Verify DC status before purchasing any file.
+
+Power of Attorney Transactions
+
+Many Karachi property transactions involve a General Power of Attorney (GPA) where the original allottee authorizes an agent to transact on their behalf. GPA-based transactions carry risk:
+- GPA expires on death of grantor
+- GPA can be revoked at any time
+- Courts have restricted use of GPA for property transactions since Supreme Court 2019 ruling
+- DHA Karachi no longer accepts GPA-based transfers as of 2022; transfers must be done by actual title holder
+
+For MCDA and BTK, GPA transfers are still accepted but the GPA must be registered with a Notary Public and attested by the relevant authority.
+
+Zameen Expo and Graana Platform Information
+
+Zameen Expo is an annual property expo organized by Zameen.com, featuring developers, agents, and overseas buyer services. The Karachi Zameen Expo typically takes place in Karachi in Q3 (August–September). Developers including DHA, Bahria, MCDA, Saadi Town, and new private schemes offer expo-exclusive pricing and installment packages.
+
+Zameen.com publishes a quarterly Karachi Property Price Index covering major housing schemes. This is available on the Zameen.com website and through their API for registered developers. The index tracks price-per-sq-yard by scheme and plot size category.
+
+Graana.com became more prominent in Karachi's premium segment by 2024. Graana typically works with RERA-registered agents (RERA refers to Real Estate Regulatory Authority, which Sindh is in the process of establishing as of 2025) and focuses on larger transactions (500 sq yard+, commercial). Graana's Karachi data tends to be higher than Zameen for the same localities, reflecting its premium listing focus.
+
+For price comparison: use Zameen for volume-weighted average; use Graana for premium/upper-quartile estimates.
+
+Developer Contact and Verification Information
+
+DHA City Karachi (DCK):
+- Office: DCK Sales Office, Super Highway, Karachi
+- Helpline: 021-111-DHA-DHA
+- Online portal: dhacity.com.pk/member-services
+
+Bahria Town Karachi:
+- Office: BTK Head Office, Superhighway
+- Helpline: 0316-111-BAHRIA
+- Online portal: bahriatownkarachi.com
+
+Malir Cantonment Development Authority:
+- Office: MCDA Head Office, Malir Cantonment
+- Online portal: mcda.pk/verify (allotment verification)
+
+SRB Stamp Duty Payment:
+- Online: srb.gos.pk (e-payment for stamp duty challans)
+- Branches: Saddar, Clifton, Malir, Landhi
+
+SBCA Digital NOC Verification:
+- Portal: sbca.gos.pk/noc-verify/[NOC-NUMBER]
+- Helpline: 021-99204150
