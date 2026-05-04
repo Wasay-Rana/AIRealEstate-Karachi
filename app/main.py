@@ -29,35 +29,28 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     logger.info(f"Starting Graph-Enhanced RAG Agent v{settings.version} [{settings.environment}]")
     start = time.time()
 
-    # 1. Embedder
     from app.ingest.embedder import OpenAIEmbedder
     embedder = OpenAIEmbedder()
     deps.set_embedder(embedder)
 
-    # 2. Pinecone
     from app.ingest.pinecone_store import PineconeStore
     pinecone_store = PineconeStore()
     pinecone_store.initialize()
     deps.set_pinecone_store(pinecone_store)
 
-    # 3. LightRAG (async init)
     from app.ingest.lightrag_store import LightRAGStore
     lightrag_store = LightRAGStore(embedder=embedder)
     await lightrag_store.initialize()
     deps.set_lightrag_store(lightrag_store)
 
-    # 4. Status tracker
     from app.ingest.status_tracker import IngestStatusTracker
     tracker = IngestStatusTracker()
     deps.set_status_tracker(tracker)
 
-    # 5. CrossEncoder reranker (loads model into memory)
     from app.processing.reranker import CrossEncoderReranker
     reranker = CrossEncoderReranker()
     deps.set_reranker(reranker)
 
-    # 6. Build BM25 index from Pinecone corpus
-    from app.retrieval.bm25_retriever import BM25Retriever
     from app.retrieval.router import get_bm25
     bm25 = get_bm25()
     await bm25.build_index(pinecone_store)

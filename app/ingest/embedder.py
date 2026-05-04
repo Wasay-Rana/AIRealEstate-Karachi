@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import asyncio
-from typing import TYPE_CHECKING
 
 import numpy as np
 from openai import AsyncOpenAI
@@ -9,9 +8,6 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 from app.core.config import get_settings
 from app.core.logging import get_logger
-
-if TYPE_CHECKING:
-    pass
 
 logger = get_logger(__name__)
 _BATCH_SIZE = 100

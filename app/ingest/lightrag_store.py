@@ -120,7 +120,6 @@ class LightRAGStore:
         logger.info(f"LightRAG: inserted {len(texts)} document(s)")
 
     async def query(self, query: str, mode: str = "hybrid", top_k: int = 15) -> str:
-        from lightrag.types import GPTKeywordExtractionFormat
         from lightrag import QueryParam
 
         try:
@@ -136,9 +135,13 @@ class LightRAGStore:
     def get_graph(self):
         """Return the underlying NetworkX graph if available."""
         try:
-            # LightRAG stores graph in chunk_entity_relation_graph attribute
-            if hasattr(self.rag, "chunk_entity_relation_graph"):
-                return self.rag.chunk_entity_relation_graph
+            storage = self.rag.chunk_entity_relation_graph
+            # NetworkXStorage wraps the real graph in ._graph
+            if hasattr(storage, "_graph"):
+                return storage._graph
+            # Fallback: older versions may expose the graph directly
+            if hasattr(storage, "nodes"):
+                return storage
         except Exception:
             pass
         return None
