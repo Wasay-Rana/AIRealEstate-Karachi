@@ -33,12 +33,11 @@ def build_messages(
         {
             "type": "text",
             "text": _SYSTEM_INSTRUCTION,
-            "cache_control": {"type": "ephemeral"},  # Cache the static instructions
+            "cache_control": {"type": "ephemeral"},  # static block — eligible for prompt cache
         },
         {
             "type": "text",
             "text": f"Context documents:\n\n{context_text}",
-            # Dynamic per-request — not cached
         },
     ]
 

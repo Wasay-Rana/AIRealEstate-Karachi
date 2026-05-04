@@ -39,24 +39,20 @@ class IngestPipeline:
             document_id = str(uuid.uuid4())
             meta = {**request.metadata, "source": request.content[:120] if request.source_type == "url" else "uploaded"}
 
-            # 1. Parse
             parser = ParserFactory.get(request.source_type)
             text, parsed_meta = await parser.parse(request.content, meta)
 
             if not text.strip():
                 raise ValueError("Parsed document is empty")
 
-            # 2. Chunk
             chunks = self._chunker.chunk(text, document_id, parsed_meta)
             logger.info(f"[{job_id}] Created {len(chunks)} chunks from document")
 
-            # 3. Embed
             texts = [c.text for c in chunks]
             embeddings = await self._embedder.embed_batch(texts)
             for chunk, emb in zip(chunks, embeddings):
                 chunk.embedding = emb
 
-            # 4. Store in Pinecone and LightRAG concurrently
             await asyncio.gather(
                 self._pinecone.upsert_chunks(chunks, namespace=request.namespace),
                 self._lightrag.insert_documents(texts),

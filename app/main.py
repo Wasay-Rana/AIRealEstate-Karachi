@@ -81,12 +81,10 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
 
-    # Exception handlers
     app.add_exception_handler(IngestError, ingest_error_handler)  # type: ignore[arg-type]
     app.add_exception_handler(RetrievalError, retrieval_error_handler)  # type: ignore[arg-type]
     app.add_exception_handler(GenerationError, generation_error_handler)  # type: ignore[arg-type]
 
-    # Routers
     from app.ingest.router import router as ingest_router
     from app.retrieval.router import router as query_router
     from app.api.graph_router import router as graph_router

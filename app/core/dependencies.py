@@ -1,7 +1,3 @@
-"""
-FastAPI dependency factories — each returns a singleton cached at module level.
-Actual initialization happens in app/main.py lifespan so errors surface at startup.
-"""
 from __future__ import annotations
 
 from typing import TYPE_CHECKING

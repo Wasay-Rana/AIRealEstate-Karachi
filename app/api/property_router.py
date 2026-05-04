@@ -169,7 +169,7 @@ async def possession_status(
             as_of="Q1 2025",
         )
 
-    raise HTTPException(status_code=422, detail=f"Possession data not yet available for society: {society.value}")
+    raise HTTPException(status_code=404, detail=f"Possession data not yet available for society: {society.value}")
 
 
 # ── Price History ─────────────────────────────────────────────────────────────
@@ -229,16 +229,16 @@ def _quarter_to_num(q: str) -> int:
 def _find_price_series(society: Society, sector_or_precinct: Optional[str], plot_size: Optional[int]) -> list[tuple[str, float]]:
     """Fuzzy-match against _PRICE_DATA keys."""
     soc = society.value
-    sec = (sector_or_precinct or "*").lower().replace(" ", "_")
-    size = str(plot_size) if plot_size else "*"
+    sec = sector_or_precinct.lower().replace(" ", "_") if sector_or_precinct else None
+    size = str(plot_size) if plot_size else None
 
-    # Try exact key first
     for key, data in _PRICE_DATA.items():
         k_soc, k_sec, k_size = key.split("|")
         if k_soc != soc:
             continue
-        sec_match = k_sec == "*" or k_sec == sec or sec in k_sec or k_sec in sec
-        size_match = k_size == "*" or k_size == size
+        # wildcard segment matches anything; no filter provided also matches anything
+        sec_match = k_sec == "*" or sec is None or k_sec == sec or sec in k_sec or k_sec in sec
+        size_match = k_size == "*" or size is None or k_size == size
         if sec_match and size_match:
             return data
 
@@ -374,12 +374,10 @@ def _calculate_duty(
     transaction_date: Optional[date],
 ) -> tuple[float, float, float, float, float, float, int]:
     """Returns (stamp_rate, stamp_duty, cvt_rate, cvt, wht_seller, wht_buyer, finance_act_year)."""
-    # Determine applicable Finance Act year
     cutoff = date(2024, 7, 1)
     tx_date = transaction_date or date.today()
     finance_act = 2024 if tx_date >= cutoff else 2022
 
-    # Stamp duty (Sindh Finance Act 2024)
     if finance_act >= 2024:
         if taxable_value <= 5_000_000:
             stamp_rate = 3.0
@@ -392,7 +390,6 @@ def _calculate_duty(
 
     stamp_duty = taxable_value * stamp_rate / 100
 
-    # CVT
     if is_cantonment:
         cvt_rate = 1.0
     elif property_type == "commercial":
@@ -401,7 +398,6 @@ def _calculate_duty(
         cvt_rate = 2.0
     cvt = taxable_value * cvt_rate / 100
 
-    # WHT
     wht_seller = taxable_value * (1.0 if seller_filer else 2.0) / 100
     wht_buyer = taxable_value * (1.0 if buyer_filer else 2.0) / 100
 

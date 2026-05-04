@@ -24,18 +24,16 @@ async def explore_graph(
 
     try:
         if entity:
-            # Find matching nodes (case-insensitive prefix match)
             matches = [n for n in graph.nodes if entity.lower() in str(n).lower()]
             if not matches:
                 return GraphResponse(nodes=[], edges=[], total_nodes=0, total_edges=0)
 
-            # BFS up to `depth` hops from all matched seed nodes
             subgraph_nodes: set = set()
             for seed in matches:
                 subgraph_nodes.update(nx.ego_graph(graph, seed, radius=depth).nodes)
             subgraph = graph.subgraph(subgraph_nodes)
         else:
-            # Return the full graph (cap at 200 nodes for response size)
+            # cap at 200 nodes to keep response size reasonable
             if len(graph.nodes) > 200:
                 nodes_to_keep = list(graph.nodes)[:200]
                 subgraph = graph.subgraph(nodes_to_keep)

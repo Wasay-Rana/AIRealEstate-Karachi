@@ -43,12 +43,10 @@ class RetrievalOrchestrator:
         """Returns (docs, effective_query, resolved_mode)."""
         settings = get_settings()
 
-        # 1. Query rewriting
         effective_query = request.query
         if request.rewrite_query:
             effective_query = await self._rewriter.rewrite(request.query)
 
-        # 2. Mode resolution
         if request.mode == "auto":
             resolved_mode = detect_mode(effective_query)
         else:
@@ -56,10 +54,8 @@ class RetrievalOrchestrator:
 
         logger.info(f"Retrieval mode={resolved_mode} query={effective_query!r:.80}")
 
-        # 3. Embed query for dense retrieval
         embedding = await self._embedder.embed_one(effective_query)
 
-        # 4. Fan-out based on mode
         all_docs: list[RetrievedDoc] = []
 
         if resolved_mode == "fast":

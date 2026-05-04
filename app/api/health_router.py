@@ -21,7 +21,6 @@ async def health() -> HealthResponse:
     components: dict[str, str] = {}
     overall = "healthy"
 
-    # Pinecone check
     try:
         ok = get_pinecone_store().ping()
         components["pinecone"] = "healthy" if ok else "unhealthy"
@@ -29,7 +28,6 @@ async def health() -> HealthResponse:
         components["pinecone"] = f"unhealthy: {exc}"
         overall = "degraded"
 
-    # LightRAG check
     try:
         ok = get_lightrag_store().ping()
         components["lightrag"] = "healthy" if ok else "unhealthy"
@@ -37,7 +35,6 @@ async def health() -> HealthResponse:
         components["lightrag"] = f"unhealthy: {exc}"
         overall = "degraded"
 
-    # CrossEncoder check
     try:
         reranker = get_reranker()
         components["reranker"] = "healthy" if reranker._model is not None else "unhealthy"
