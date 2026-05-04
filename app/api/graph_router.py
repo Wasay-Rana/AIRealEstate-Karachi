@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import networkx as nx
 from fastapi import APIRouter, Query
 
 from app.core.dependencies import get_lightrag_store
@@ -22,8 +23,6 @@ async def explore_graph(
         return GraphResponse(nodes=[], edges=[], total_nodes=0, total_edges=0)
 
     try:
-        import networkx as nx
-
         if entity:
             # Find matching nodes (case-insensitive prefix match)
             matches = [n for n in graph.nodes if entity.lower() in str(n).lower()]
